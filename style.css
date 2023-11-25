@@ -1,1 +1,54 @@
 
+body{
+  background-color: white;
+  color:black;
+}
+
+header {
+  background-color: #444;
+  color: #ddd;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  color: #ddd;
+  display: flex;
+}
+
+a{
+  background-color: #444;
+  color: #ddd;
+}
+
+section{
+  display: flex;
+}
+
+div{
+  display: flex;
+}
+
+/*scrollable container*/
+p {
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+}
+
+button{
+  background-color: black;
+  color: white;
+  transition: 350ms;
+}
+/*hover & transition*/
+button:hover{
+  background-color: salmon;
+}
+
+footer {
+  height: 100px;
+  background-color: #444;
+}
+
