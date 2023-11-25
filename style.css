@@ -7,14 +7,22 @@ body{
 header {
   background-color: #444;
   color: #ddd;
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
+  height: 100px;
+}
+
+img { 
+  margin: 15px;
 }
 
 nav{
   color: #ddd;
   display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-evenly, center;
 }
 
 a{
@@ -24,17 +32,31 @@ a{
 
 section{
   display: flex;
+  align-items: center;
 }
 
 div{
   display: flex;
 }
 
+article{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+article h2{
+  margin-bottom: 15px;
+}
+article button{
+  margin-top: 20px;
+}
 /*scrollable container*/
 p {
   width: 450px;
   height: 300px;
   overflow: auto;
+  align-items: center;
 }
 
 button{
